@@ -20,14 +20,17 @@ Student Number: C00311509.
 ```bash
 put you full command, that you used to crerate new cheer command.
 ```
-
+echo "Almost Xmas. You got this! Let's Go!"
 
 ---
 
 ### Task 3 : Echo whoami to file (10%)
 
 ```bash
-Insert your full echo command here 
+
+echo "Hello," + whoami + "! This is task 2 completed"
+
+
 ```
 
 
@@ -37,6 +40,9 @@ Insert your full echo command here
 
 ```bash
 You full details.sh script here
+
+echo "User:" + whoami + /n"Current dir:" + dir/n"Host"+host"
+
 ```
 
 
@@ -47,7 +53,12 @@ You full details.sh script here
 ```python
 You full python script here
 ```
-
+with open ("odd_or_even.py") as f:
+    for line in f:
+        if (f%2):
+            print("odd")
+        else:
+            print("even")
 
 ---
 
@@ -56,6 +67,12 @@ You full python script here
 ```python
 You full python script here
 ```
+with open ("odd_or_even.py") as f:
+    for line in f:
+        if (f%2):
+            print("odd")
+        else:
+            print("even")
 
 
 ---
